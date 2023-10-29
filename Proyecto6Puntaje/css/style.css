@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(90deg, rgba(136,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.puntaje {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    background-color: aliceblue;
+    width: 70px;
+    height: 65px;
+    cursor: pointer;
+    -webkit-mask-image: url("../img/estrellita.svg");
+    mask-image: url("../img/estrellita.svg");
+}
+
+.item.selec {
+    background-color: #8a4932;
+}
+
+.pantalla{
+    background-color: #f6f07b;
+    padding: 0.5rem;
+    font-size: 2.2rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    overflow: auto;
+    width: 100px;
+    margin: 20px 46% 0px 46%;
+}
